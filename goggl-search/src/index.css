@@ -1,0 +1,32 @@
+
+:root{
+    --bg-color-dark: #272727;
+    --color-dark: #ccc;
+    --btn-color-dark: hsl(30, 100%, 50%);
+
+    --bg-color-light: #fff;
+    --color-light: #222;
+    --btn-color-light: hsl(200, 100%, 50%);
+
+    --font-size-lg: 2rem;
+    --font-size-md: 1.5rem;
+    --font-size-sm: 1rem;
+
+    --padding-button-x-lg: .6rem; 
+    --padding-button-x-sm: .4rem; 
+    --padding-button-x-md: .3rem; 
+
+    --padding-button-y-lg: .4rem;
+    --padding-button-y-sm: .2rem;
+    --padding-button-y-md: .1rem;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+

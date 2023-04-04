@@ -1,0 +1,29 @@
+.search-container{
+    text-align: center;
+}
+
+.search-input{
+    border-radius: 10px;
+    height: var(--font-size-lg);
+    margin-bottom: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.search-input.light{
+    background-color: var(--bg-color-dark);
+    color: var(--color-dark);
+}
+
+.search-input.dark{
+    background-color: var(--bg-color-light);
+    color: var(--color-light);
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}

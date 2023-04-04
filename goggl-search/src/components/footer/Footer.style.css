@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+}
+ 
+.footer.light {
+    border-top: 1px solid var(--bg-color-dark);
+}
+
+.footer.dark {
+    border-top: 1px solid var(--bg-color-light);
+}
