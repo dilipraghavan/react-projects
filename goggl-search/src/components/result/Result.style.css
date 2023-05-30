@@ -1,6 +1,13 @@
 .result-container{
     padding: 20px;
-    margin: 20px;
+}
+
+.result-container.light{
+    background-color: var(--bg-color-light);
+}
+
+.result-container.dark {
+    background-color: var(--bg-color-dark);
 }
 
 .result{

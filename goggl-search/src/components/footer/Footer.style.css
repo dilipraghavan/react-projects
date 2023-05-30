@@ -4,12 +4,15 @@
     width: 100%;
     text-align: center;
     line-height: 3rem;
+    z-index: 2;
 }
  
 .footer.light {
     border-top: 1px solid var(--bg-color-dark);
+    background-color: var(--bg-color-light);
 }
 
 .footer.dark {
     border-top: 1px solid var(--bg-color-light);
+    background-color: var(--bg-color-dark);
 }
